@@ -16,3 +16,5 @@ window.addEventListener("click", function() {
     var bodyy = document.getElementsByTagName('body')[0];
     bodyy.style.backgroundColor = randColor;
 });
+
+console.log("Hello World")

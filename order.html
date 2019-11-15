@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Add a black background color to the top navigation */
+        
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        /* Style the links inside the navigation bar */
+        
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        /* Change the color of links on hover */
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Add a color to the active/current link */
+        
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        #div1 {
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            font-size: 48px;
+        }
+        
+        #div2 {
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="main.html">Home</a>
+        <a href="Team.html">Team</a>
+        <a href="About.html">About</a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h2 class="auto-style2">&nbsp;</h2>
+    </div>
+    <div id="div1" align="center">
+        Please fill out the info to complete your order.
+    </div>
+
+    <br>
+    <div2 id="div2">
+
+        <br>
+
+        <form action="/action_page.php">
+            First name: <input type="text" name="fname"><br> Last name: <input type="text" name="lname"><br> Address: <input type="text" name="lname"><br> Telephone: <input type="tel" name="phone" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+                required>
+            <br><span>Format: 7021111111</span> <br> E-mail:
+            <input type="email" name="emailaddress"> <br>Date: <input type="date" id="myDate" value="2014-02-09"><br> Time: <input type="time" id="myTime" value="22:15:00"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div2>
+            <a href="Thank%20You.html">Thank You
+</a>
+</body>
+
+</html>
